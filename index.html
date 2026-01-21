@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoFit Academia</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="responsive.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Onest:wght@100..900&family=Orbitron:wght@400..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <h1 class="titulo">Go<span>Fit</span></h1>
+        <nav>
+
+            <a href="#localizacao">Localização</a>
+            <a href="#equipamentos">Equipamentos</a>
+            <a href="#profissionais">Profissionais</a>
+            <a href="#planos">Planos</a>
+        </nav>
+    </header>
+
+
+    <main>
+        <section class="introducao">
+            <h2 class="subtitulo">Bem-vindo à Go<span>Fit</span>!</h2>
+            <p class="descricao">
+                Na GoFit, oferecemos uma experiência de treino completa com equipamentos de última geração.
+            </p>
+            <button class="botao-contato">Entre em Contato</button>
+        </section>
+        <div class="imagem-main">
+
+            <img src="imagens/Gofit logo.jpg" alt="Imagem de uma academia moderna">
+        </div>
+    </main>
+
+
+    <section class="localizacao" id="localizacao">
+        <div class="cabecalho-mapa">
+            <h2>Onde Estamos!</h2>
+            <p class="mapa-descricao">
+                Estamos localizados na Academia GO!FIT
+                R. Roberto Cavalcante Albuquerque, 810 - Jardim Paulistano, Campina Grande - PB, 58415-245
+            </p>
+        </div>
+        <div class="mapa">
+
+            <iframe class="mapa-iframe"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.8965668228925!2d-35.89730792590566!3d-7.252611671244753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ac1de4dd105d63%3A0xa786ba0fc3718c55!2sAcademia%20GO*21FIT!5e0!3m2!1spt-BR!2sbr!4v1757464957544!5m2!1spt-BR!2sbr"
+                style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+
+    <section class="maquinas-main" id="equipamentos">
+        <h1 class="titulo-maquinas">Nossas Máquinas e Equipamentos</h1>
+        <p class="descricao-maquinas">
+            Aqui estão algumas das máquinas que temos disponíveis para nossos alunos:
+        </p>
+        <div class="carrossel">
+            <div class="slides">
+
+                <div class="slide slide1">
+                    <ul>
+                        <li>Leg 45</li>
+                        <li>Hack</li>
+                        <li>Extensora</li>
+                        <li>Cadeira Flexora</li>
+                        <li>Mesa Flexora</li>
+                    </ul>
+                </div>
+
+                <div class="slide slide2">
+                    <ul>
+                        <li>Máquina de puxada</li>
+                        <li>Abdutora</li>
+                        <li>Adutora</li>
+                        <li>Máquina de elevação pélvica</li>
+                        <li>Pêndulo</li>
+                    </ul>
+                </div>
+
+                <div class="slide slide3">
+                    <ul>
+                        <li>Máquina de sumô</li>
+                        <li>Smith</li>
+                        <li>Máquina de agachamento livre</li>
+                        <li>Voador</li>
+                        <li>Supino reto</li>
+                    </ul>
+                </div>
+
+                <div class="slide slide4">
+                    <ul>
+                        <li>Supino inclinado</li>
+                        <li>Panturrilha em pé</li>
+                        <li>Leg 180</li>
+                        <li>Cross over</li>
+                        <li>Puxada articulada</li>
+                        <li>Esteiras</li>
+                    </ul>
+                </div>
+            </div>
+
+            <button class="botao prev">
+                <</button>
+                    <button class="botao next">></button>
+        </div>
+    </section>
+
+
+    <section class="profissionais" id="profissionais">
+        <h1>Nossos Profissionais</h1>
+        <p class="descricao-profissionais">Conheça nossa equipe de profissionais qualificados:</p>
+        <div class="carrossel-profissionais">
+            <div class="slides-profissionais">
+
+                <div class="profissional profissional1">
+                    <h3>Germano e Carlos</h3>
+                </div>
+
+                <div class="profissional profissional2">
+                    <h3>Ivailton</h3>
+                </div>
+            </div>
+
+            <button class="botaoPro prevProfissionais">
+                <</button>
+                    <button class="botaoPro nextProfissionais">></button>
+        </div>
+    </section>
+
+
+
+
+    <section class="planos" id="planos">
+        <h1>Nossos Planos</h1>
+        <p class="descricao-planos">Confira nossos planos de treinamento:</p>
+        <div class="container-planos">
+
+            <div class="plano">
+                <h3>Trimestral</h3>
+                <p>✅Musculação com livre acesso.</p>
+                <p>✅Protocolos de treino personalizados.</p>
+                <p>✅Avaliação Perimetrica </p>
+                <p>✅Taxa de matrícula Grátis</p>
+                <h4>3x de R$64,90</h4>
+            </div>
+
+            <div class="plano">
+                <h3>Mensal</h3>
+                <p>✅Musculação com livre acesso.</p>
+                <p>✅Protocolos de treino personalizados.</p>
+                <p>✅Avaliação Perimetrica </p>
+                <p>✅Taxa de matrícula Grátis</p>
+                <h4>R$75,00</h4>
+            </div>
+
+            <div class="plano">
+                <h3>Semestral</h3>
+                <p>✅Musculação com livre acesso.</p>
+                <p>✅Protocolos de treino personalizados.</p>
+                <p>✅Avaliação Perimetrica </p>
+                <p>✅Taxa de matrícula Grátis</p>
+                <h4>6x de R$59,90</h4>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

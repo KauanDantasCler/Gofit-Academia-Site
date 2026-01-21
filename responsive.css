@@ -1,0 +1,306 @@
+@media (max-width: 900px) {
+
+    header {
+        flex-direction: column;
+        height: auto;
+        padding: 2vw;
+    }
+
+    .titulo {
+        font-size: 6vw;
+        margin-bottom: 2vw;
+    }
+
+    nav {
+        margin-right: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1vw;
+    }
+
+    a {
+        font-size: 3vw;
+        margin: 0.5vw;
+        padding: 0.5vw 1vw;
+        transition: all 0.3s ease;
+    }
+
+    a:hover {
+        color: #942e2e;
+        transform: scale(1.05);
+    }
+
+    .introducao {
+        width: 100%;
+        height: auto;
+        padding: 3vw 2vw;
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+
+    .subtitulo {
+        font-size: 8vw;
+        width: 100%;
+        margin-top: 2vw;
+    }
+
+    .descricao {
+        font-size: 3.5vw;
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 2vw;
+    }
+
+    main {
+        flex-direction: column;
+        height: auto;
+        padding: 3vw 2vw;
+    }
+
+    .imagem-main {
+        width: 100%;
+        height: auto;
+        margin-right: 0;
+        margin-top: 3vw;
+    }
+
+    .imagem-main img {
+        width: 70vw;
+        max-width: 300px;
+    }
+
+    .botao-contato {
+        width: 80vw;
+        max-width: 300px;
+        padding: 3vw 4vw;
+        font-size: 3.5vw;
+        height: auto;
+        margin-left: 0;
+        transition: all 0.3s ease;
+    }
+
+    .botao-contato:hover {
+        background-color: #c23a3a;
+        transform: translateY(-0.5vw);
+        box-shadow: 0 5px 15px rgba(148, 46, 46, 0.4);
+    }
+
+    .localizacao {
+        height: auto;
+        margin-top: 2vw;
+        padding: 2vw;
+    }
+
+    .cabecalho-mapa {
+        width: 100%;
+        height: auto;
+        padding: 2vw;
+    }
+
+    h2 {
+        font-size: 8vw;
+        padding: 1vw;
+    }
+
+    .mapa-descricao {
+        font-size: 3vw;
+        width: 100%;
+        margin-top: 2vw;
+    }
+
+    .mapa {
+        width: 100%;
+        height: auto;
+        padding: 0 2vw;
+    }
+
+    .mapa-iframe {
+        width: 100%;
+        height: 50vw;
+        margin-left: 0;
+        margin-bottom: 2vw;
+    }
+
+    .maquinas-main {
+        height: auto;
+        padding: 2vw;
+        margin-top: 2vw;
+    }
+
+    .titulo-maquinas {
+        width: 100%;
+        height: auto;
+        font-size: 8vw;
+        margin-top: 2vw;
+        padding: 2vw 0;
+    }
+
+    .descricao-maquinas {
+        width: 100%;
+        height: auto;
+        font-size: 3.5vw;
+        margin-top: 2vw;
+    }
+
+    .carrossel {
+        width: 100%;
+        height: 55vw;
+        margin-top: 3vw;
+    }
+
+    .slide {
+        font-size: 2.5vw;
+    }
+
+    ul {
+        padding: 2vw;
+        font-size: 5vw;
+    }
+
+    li {
+        font-size: 4vw;
+        margin: 1vw 0;
+    }
+
+    .botao,
+    .botaoPro {
+        width: 12vw;
+        height: 12vw;
+        font-size: 7vw;
+        padding: 1vw;
+        z-index: 10;
+        transition: all 0.3s ease;
+    }
+
+    .botao:hover,
+    .botaoPro:hover {
+        background-color: rgba(148, 46, 46, 0.3);
+        border-color: #942e2e;
+        color: #942e2e;
+        transform: translateY(-50%) scale(1.1);
+    }
+
+    .prev,
+    .prevProfissionais {
+        left: 1vw;
+    }
+
+    .next,
+    .nextProfissionais {
+        right: 1vw;
+    }
+
+    .profissionais {
+        height: auto;
+        padding: 2vw;
+        margin-top: 2vw;
+    }
+
+    .profissionais h1 {
+        font-size: 8vw;
+        margin-bottom: 2vw;
+    }
+
+    .descricao-profissionais {
+        font-size: 3.5vw;
+        width: 100%;
+        margin-bottom: 3vw;
+    }
+
+    .carrossel-profissionais {
+        width: 90%;
+        height: 70vw;
+        max-height: 500px;
+        margin-top: 3vw;
+        margin-bottom: 3vw;
+    }
+
+    h3 {
+        font-size: 4vw;
+        margin-bottom: 1vw;
+    }
+
+    .planos {
+        height: auto;
+        padding: 3vw 2vw;
+        margin-top: 2vw;
+    }
+
+    .planos h1 {
+        font-size: 8vw;
+        margin-bottom: 2vw;
+    }
+
+    .descricao-planos {
+        font-size: 3.5vw;
+        margin-bottom: 3vw;
+    }
+
+    .container-planos {
+        flex-direction: column;
+        width: 100%;
+        gap: 2vw;
+        align-items: center;
+    }
+
+    .plano {
+
+        width: 75%;
+        height: auto;
+        min-height: 35vw;
+        padding: 3vw;
+        margin: 0;
+        box-shadow: 0 0 1.5vw rgba(0, 0, 0, 0.5);
+    }
+
+    .plano h3 {
+        font-size: 4vw;
+        margin-bottom: 1.5vw;
+    }
+
+    .plano h4 {
+        font-size: vw;
+    }
+
+    .plano p {
+        font-size: 2.5vw;
+    }
+}
+
+@media (max-width: 600px) {
+    a {
+        font-size: 2.5vw;
+        margin: 0.3vw;
+    }
+
+    .subtitulo {
+        font-size: 6vw;
+    }
+
+    .descricao {
+        font-size: 2.5vw;
+    }
+
+    h2 {
+        font-size: 6vw;
+    }
+
+    .botao-contato {
+        font-size: 2.5vw;
+    }
+
+    .carrossel {
+        height: 65vw;
+    }
+
+    .carrossel-profissionais {
+        height: 80vw;
+        max-height: 400px;
+    }
+
+    li {
+        font-size: 3.5vw;
+    }
+}
